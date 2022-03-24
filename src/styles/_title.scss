@@ -1,0 +1,14 @@
+.title {
+  height: 13rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #e7edff;
+  h1 {
+    padding: 1rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+}

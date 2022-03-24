@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import Title from "./components/Title";
+import Nav from "./components/Nav";
+import "./styles/app.scss";
+import Hero from "./images/hero.jpg";
+import doctolib from "./images/doctolib.png";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <Title />
+      <Nav />
+      <div className="hero">
+        <img
+          src={Hero}
+          className="hero-image"
+          alt="massage"
+        />
+        <a href="https://www.doctolib.fr/masseur-kinesitherapeute/brest/didier-bedel">
+          Prendre Rendez-vous en ligne
+          <img
+            src={doctolib}
+            className="doctolib"
+            alt="Doctolib"
+          />
         </a>
-      </header>
+      </div>
     </div>
   );
-}
+};
 
 export default App;

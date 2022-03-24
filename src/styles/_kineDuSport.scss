@@ -1,0 +1,21 @@
+.auxerre {
+  display: flex;
+  width: 90%;
+  margin: 2rem;
+
+  .auxerre-img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 25px;
+  }
+  .auxerre-story {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 100%;
+    }
+  }
+}

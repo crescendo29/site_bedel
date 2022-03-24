@@ -1,0 +1,17 @@
+.curriculum {
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  img {
+    width: 40rem;
+    overflow: hidden;
+  }
+  .curriculum-list-element {
+    list-style-type: circle;
+    margin: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
